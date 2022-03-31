@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+div.cabecalho{
+    width: 100%;
+    background-color: #023047;
+    color: white;
+    height: 5vh;
+    text-align: center;
+}
+
+div.menuesquerdo{
+    float: left;
+    width: 33%;
+    background-color: #e9edc9;
+    /*height: 100vh;*/
+    
+
+}
+
+div.menudireito{
+    width: 34%;
+    background-color: #fefae0;
+    /*height: 100vh;*/
+    float: left;
+    
+}
+div.menucentral{
+    float: left;
+    width: 33%;
+    background-color: #ccd5ae;
+    /*height: 100vh;*/
+
+}
+body{
+    background-color: #d4a373;
+}
+p{
+    margin: 10px;
+    
+}
