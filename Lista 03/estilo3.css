@@ -1,0 +1,67 @@
+div.navegacao{
+    height: 5vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    float: left;    
+}
+
+li{
+    float: left;
+    list-style: none;
+    padding: 0 15px 0 0;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 2.5ch;
+}
+#divBusca{
+    float: left;    
+}
+div.esquerda{
+    float: left;
+    background-color: black;
+    width: 85%;
+    height: 5vh;
+    
+}
+div.direita{
+    height: 5vh;
+    float: right;
+    background-color: black;
+    width: 15%;
+}
+#txtBusca{
+    float:left;
+    background-color:white;
+    padding-left:5px;
+    font-size:18px;
+    border:solid 1px;
+    border-radius:15px;
+}
+div.sidebar{
+    float: left;
+    padding: 0;
+    margin-top: 3vh;
+    width: 20%;
+    background-color: rgb(231, 231, 231);
+    border-radius: 7px;
+
+}
+div.sidebar a{
+    text-decoration: none;
+    color: rgb(2, 152, 252);
+}
+div.sidebar a:hover{
+    background-color: rgb(2, 152, 252);
+    color: white;
+    cursor: pointer;
+}
+div.dashboard{
+    background-color: rgb(231, 231, 231);
+    margin-left: 4vh;
+}
+
