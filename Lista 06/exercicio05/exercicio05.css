@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+}
+input[type="file"]{
+    display: none;
+}
+.container{
+    display: grid; 
+
+   grid-template-rows: (4, 1fr);
+   grid-template-columns: (5, 1fr);
+   
+   gap: 10px;
+   height: 100%;
+}
+.div1{
+    background-color: #fff; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 6;
+    text-align: center;
+ }
+.div2{
+    background: linear-gradient(#0b9c95, #5DD9C1, #ACFCD9); 
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-row-end: 4;
+    grid-column-end: 2;
+    height: 80vh;
+    border: 1px solid #000;
+    border-radius: 15px;
+ }
+ .div2>.estilo1{
+    height: 20vh;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 1000;
+    font-size: 15pt;
+}
+.div2>.estilo1 label{
+    cursor: pointer;
+}
+.div2>.estilo1 img{
+    width: 50%;
+    height: 50%;
+}
+.div2>.estilo1 p{
+    cursor: pointer;
+}
+.div2>.estilo1 #btn-submit{
+    cursor: pointer;
+    border: none;
+    width: 25px;
+}
+.div2>.estilo1 #btn-submit:hover{
+    background-color: #0b9c95;
+    color: #fff;
+    transition: 0.4s;
+}
+.div2>.estilo2{
+    height: 30vh;
+    text-align: center;
+    padding-top: 15px;
+}
+ .div2>.estilo4{
+     height: 20vh;
+     color: #000;
+     text-align: center;
+     padding-top: 50px;
+ }
+ .div2>.estilo4 #nome{
+     font-size: 30pt;
+ }
+
+
+ .div3{
+    background: linear-gradient(#BC9EC1, #E3BAC6, #FDE8E9); 
+    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-end: 4;
+    grid-column-end: 3;
+    height: 80vh;
+    border: 1px solid #000;
+    border-radius: 15px;
+ }
+ .div3>.estilo1{
+    font-weight: 1000;
+    font-size: 15pt;
+    color: rgb(89, 78, 78);
+    height: 20vh;
+    text-align: center;
+    padding-top: 10px;
+}
+.div3>.estilo2{
+    height: 30vh;
+    text-align: center;
+    padding-top: 15px;
+}
+ .div3>.estilo4{
+     height: 30;
+     color: rgb(89, 78, 78);
+     text-align: center;
+     padding-top: 50px;
+ }
+ .div3>.estilo4 #nome2{
+     font-size: 30pt;
+ }
+
+
+.div4{
+    background-image: linear-gradient(#392061, #822E81, #AA6373);
+    grid-row-start: 2;
+    grid-column-start: 4;
+    grid-row-end: 4;
+    grid-column-end: 4; 
+    height: 80vh;
+    border: 1px solid #000;
+    border-radius: 15px;
+ }
+ .div4>.estilo1{
+    background-color: rgba(0, 0, 0, 0);
+    height: 20vh;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 1000;
+    font-size: 15pt;
+    color: #fff;
+}
+.div4>.estilo2{
+    background-color: rgba(0, 0, 0, 0);
+    height: 30vh;
+    text-align: center;
+    padding-top: 15px;
+}
+ .div4>.estilo4{
+     background-color: rgba(0, 0, 0, 0);
+     height: 30vh;
+     color: #fff;
+     text-align: center;
+     padding-top: 50px;
+ }
+ .div4>.estilo4 #nome3{
+     font-size: 30pt;
+ }
